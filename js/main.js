@@ -104,6 +104,8 @@ var btnTinhTong = document.getElementById('btnTinhTong').onclick = function() {
     var soHangChuc = Math.floor(soHaiChuSo / 10);
     var soHangDonVi = soHaiChuSo % 10;
     var tongKySo = soHangChuc + soHangDonVi;
+    console.log(soHangChuc);
+    console.log(soHangDonVi)
     thongTin.style.display = 'block';
     tongHaiKySo.innerHTML = 'Tổng hai ký số là: ' + tongKySo;
 
